@@ -5,6 +5,7 @@ It is very important that you will have Docker downloaded and working on your co
 so we will be able to jump right in and focus on the important stuff.
 
 Please follow this simple turtorial for downloading Docker, it shouldnt take more than few minutes:
+
 https://docs.docker.com/get-docker/
 
 After you finished downloading docker, run the following 2 commands to make sure it is installed successfully on your computer-

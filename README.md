@@ -14,4 +14,6 @@ After you finished downloading docker, run the following 2 commands to make sure
 
 `docker run hello-world`
 
+If everything goes right, you should get hello message from Docker at the end.
+
 That's it for the meanwhile, see you next Sunday!

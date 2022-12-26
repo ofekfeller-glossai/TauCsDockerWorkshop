@@ -1,6 +1,4 @@
 # TauCsDockerWorkshop
-TAU CS CLUB Docker Workshop
-
 Hello everyone and welcome to the workshop!
 
 It is very important that you will have Docker downloaded and working on your computer before the workshop,

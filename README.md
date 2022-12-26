@@ -1,5 +1,5 @@
 # TAU CS Docker Workshop
-Hello everyone and welcome to the workshop!
+Hello everyone and welcome!
 
 It is very important that you will have Docker downloaded and working on your computer before the workshop,
 so we will be able to jump right in and focus on the important stuff.

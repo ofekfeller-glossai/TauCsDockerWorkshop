@@ -1,7 +1,7 @@
 # TAU CS Docker Workshop
 Hello everyone and welcome!
 
-It is very important that you will have Docker downloaded and working on your computer before the workshop,
+It is very important that you will have Docker (and few other requirements) downloaded and working on your computer before the workshop,
 so we will be able to jump right in and focus on the important stuff.
 
 Please follow the instructions and requirements below, it really shouldnt take that long.

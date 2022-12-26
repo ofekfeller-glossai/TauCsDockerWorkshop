@@ -10,7 +10,7 @@ Please follow this simple turtorial, it shouldnt take more than few minutes:
 https://docs.docker.com/get-docker/
 
 After you finished downloading docker, run the following 2 commands to make sure it is installed successfully on your computer-
-`docker pull hello-world`
-`docker run hello-world`
+\n`docker pull hello-world`
+\n`docker run hello-world`
 
 That's it for the meanwhile, see you next Sunday!

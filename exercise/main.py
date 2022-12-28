@@ -8,14 +8,17 @@ def get_video_path():
     return video_path
 
 
-def process_video():
-    video_path = get_video_path()
+def process_video(video_path):
     print(f'Processing {video_path=}')
-
+    
     ################################
     # Add your implementation here #
     ################################
-
+    
 
 if __name__ == '__main__':
-    process_video()
+    your_name = 'Put your name here!'
+    video_path = get_video_path()
+    
+    print(f'Running from inside {your_name}\'s container :)')
+    process_video(video_path=video_path)

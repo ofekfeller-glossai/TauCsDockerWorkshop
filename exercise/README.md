@@ -1,7 +1,7 @@
 ### Goal
-Implement a basic video editing black-box tool.
-Input: video file
-Output: same video with some manipulation
+* Implement a basic video editing black-box tool.
+* Input: video file
+* Output: same video with some manipulation
 
 ### Implement your code in `main.py`
 1. Input file logic was implemented for you

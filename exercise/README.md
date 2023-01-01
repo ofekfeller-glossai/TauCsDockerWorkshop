@@ -1,4 +1,7 @@
 ### Implement your code in `main.py`
+Ideas for packages to use:
+* moviepy
+* cv2
 
 ### Build your Docker image:
 * Write the `Dockerfile`

@@ -8,9 +8,29 @@
 2. Manipulate the video file and generate a new one
 3. Save your output in the same folder
 
-* Ideas for packages to use:
-   * moviepy
-   * cv2
+* Ideas for packages and manipulations to use:
+   *	Cv2
+        * Text on screen - https://www.geeksforgeeks.org/python-opencv-write-text-on-video/
+
+        * Crop parts of the video - https://www.geeksforgeeks.org/moviepy-getting-cut-out-of-video-file-clip/
+
+        * Slow motion - https://www.codespeedy.com/creating-a-slow-motion-video-using-opencv-in-python/
+
+        * Drow a rectangle on screen - https://www.geeksforgeeks.org/how-to-draw-filled-rectangle-to-every-frame-of-video-by-using-python-opencv/
+
+  * Moviepy –
+    * Text on screen - https://www.geeksforgeeks.org/moviepy-inserting-text-in-the-video/
+
+    * Rotating video - https://www.geeksforgeeks.org/moviepy-rotating-video-file/
+
+    * Freeze painting effect - https://zulko.github.io/moviepy/examples/painting_effect.html
+
+    * Change movie speed (fast/slow motion) - https://www.geeksforgeeks.org/moviepy-applying-speed-effect-on-video-clip/
+
+    * Mirroring video - https://www.geeksforgeeks.org/moviepy-mirroring-video-file-clip-for-x-axis/?ref=rp
+
+    * Blurring movie - https://zulko.github.io/moviepy/examples/quick_recipes.html#blurring-all-frames-of-a-video
+
 
 ### Build your Docker image:
 * Write the `Dockerfile`

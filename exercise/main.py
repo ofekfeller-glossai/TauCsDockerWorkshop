@@ -22,7 +22,7 @@ def process_video(video_path):
   
     # showing clip
     #clip.ipython_display(width = 480)
-    clip.write_videofile("new video.mp4")
+    clip.write_videofile("exercise/video/new video.mp4")
     return clip
     
 

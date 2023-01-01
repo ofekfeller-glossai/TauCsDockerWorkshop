@@ -41,6 +41,7 @@
 
 ### Run a container locally:
 * `docker run --rm -it taucsclub/cs_club_docker_workshop:<yourname>`
+
 * Explanation:
   * `--rm` - Automatically remove the container when it exits
   * `-it` -  instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container.
@@ -48,6 +49,8 @@
 ### Deploy your image to DockerHub
 * Login to you docker hub account
 * docker push taucsclub/cs_club_docker_workshop:<yourname>
+
+
 
 ### Pull your friend's image from DockerHub
 * `docker pull taucsclub/cs_club_docker_workshop:<your_friends_name>`
@@ -57,7 +60,9 @@
     * <some_folder_in_your_local_filesystem> - folder that conains a video file to work on
     * <video_file_name> - the actual file name
     * <your_friends_name> - your friend's image name
-* `docker run --rm --mount type=bind,src='<some_folder_in_your_local_filesystem>',dst='/tmp/video' -e VIDEO_PATH='/tmp/video/<video_file_name>' taucsclub/cs_club_docker_workshop:<your_friends_name>`
+* `docker run --rm --mount type=bind,src='C:\Users\Yonatan\Desktop\TauCsDockerWorkshop\exercise\video',dst='/tmp/video' -e VIDEO_PATH='tmp/video/bird.mp4' taucsclub/cs_club_docker_workshop:>`
+
+
 * Explanation:
   * `--rm` - Automatically remove the container when it exits
   * `-e` - Set environment variables

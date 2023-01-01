@@ -1,5 +1,7 @@
 import os
 import pathlib
+from moviepy.editor import *
+
 
 
 def get_video_path():
@@ -10,10 +12,18 @@ def get_video_path():
 
 def process_video(video_path):
     print(f'Processing {video_path=}')
-    
-    ################################
-    # Add your implementation here #
-    ################################
+    clip = VideoFileClip(video_path)
+  
+    # getting subclip as video is large
+    #clip = clip.subclip(55, 65)
+  
+    # rotating clip by 45 degree
+    clip = clip.rotate(45)
+  
+    # showing clip
+    #clip.ipython_display(width = 480)
+    clip.write_videofile("new video.mp4")
+    return clip
     
 
 if __name__ == '__main__':

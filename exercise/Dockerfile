@@ -1,8 +1,7 @@
 FROM python:3.8.12-slim
 
-##########################
-# Add your stuff here... #
-##########################
+RUN pip install pathlib
+RUN pip install moviepy
 
 
 # Copy all code from this directory into the docker's /home/code directory

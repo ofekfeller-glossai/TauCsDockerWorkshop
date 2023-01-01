@@ -4,7 +4,7 @@
 * Write the `Dockerfile`
 * Make sure to include your code + install all necessary requirements
 * Enter exercise folder: `cd exercise`
-* From this project's dir run (replace _<yourname>_ with your name):
+* From this project's dir run (replace _<yourname>_ with your name) - including the `.` at the end of the line:
   * `docker build -t taucsclub/cs_club_docker_workshop:<yourname> .`
 
 ### Run a container locally:

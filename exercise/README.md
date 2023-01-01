@@ -60,7 +60,7 @@
     * <some_folder_in_your_local_filesystem> - folder that conains a video file to work on
     * <video_file_name> - the actual file name
     * <your_friends_name> - your friend's image name
-* `docker run --rm --mount type=bind,src='C:\Users\Yonatan\Desktop\TauCsDockerWorkshop\exercise\video',dst='/tmp/video' -e VIDEO_PATH='tmp/video/bird.mp4' taucsclub/cs_club_docker_workshop:>`
+* 'docker run --rm --mount type=bind,src='C:\Users\Yonatan\Desktop\TauCsDockerWorkshop\exercise\video',dst='/tmp/video' -e VIDEO_PATH='tmp/video/bird.mp4' taucsclub/cs_club_docker_workshop:yonatan_m'
 
 
 * Explanation:
